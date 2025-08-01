@@ -730,6 +730,7 @@ h4 { font-size: 1.5rem; }
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
     animation: fadeInUp 0.8s ease;
+    min-height: 400px;
 }
 
 .portfolio-item {
@@ -753,6 +754,7 @@ h4 { font-size: 1.5rem; }
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #f0f0f0;
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
